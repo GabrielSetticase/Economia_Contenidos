@@ -1,0 +1,23 @@
+.recuadro {
+    background-color: aliceblue;
+    font-family: monospace;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.recuadro::before {
+    content: '¿Sabías que? ... ';
+    position: absolute;
+    top: -20px;
+    /* Ajusta la posición vertical de la palabra sobre el borde */
+    left: 10%;
+    /* Coloca la palabra en el centro horizontalmente */
+    transform: translateX(-50%);
+    background-color: white;
+    /* Fondo para cubrir el borde detrás de la palabra */
+    padding: 0 10px;
+    /* Espaciado alrededor de la palabra */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

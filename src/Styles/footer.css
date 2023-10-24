@@ -1,0 +1,22 @@
+.footer {
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+.footer p {
+    display: flex;
+    text-align: center;
+    font-size: smaller;
+}
+
+@media(max-width:700px) {
+    .footer {
+        background-color: #1c5560;
+        color: white
+    }
+}

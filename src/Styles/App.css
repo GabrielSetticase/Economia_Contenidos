@@ -1,0 +1,26 @@
+.header {
+    min-height: 40px;
+}
+
+.cuerpo {
+    min-height: 380px;
+}
+
+.footer {
+    min-height: 40px;
+}
+
+@media(max-width: 700px) {
+    .header {
+        min-height: 40px;
+    }
+
+    .cuerpo {
+        min-height: 250px;
+    }
+
+    .footer {
+        min-height: 20px;
+    }
+
+}
