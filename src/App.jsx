@@ -8,6 +8,7 @@ import { Unidad3 } from "./Routes/Unidad3"
 import { Unidad4 } from "./Routes/Unidad4"
 import { Unidad5 } from "./Routes/Unidad5"
 import { Unidad6 } from "./Routes/unidad6"
+import { Equivalencia } from "./Routes/Equivalencia"
 import { Route, Routes, Navigate } from 'react-router-dom';
 import "./Styles/App.css"
 
@@ -31,6 +32,7 @@ export const App = () => {
           <Route path="/Unidad4" element={<Unidad4 />}>Unidad 4</Route>
           <Route path="/Unidad5" element={<Unidad5 />}>Unidad 5</Route>
           <Route path="/Unidad6" element={<Unidad6 />}>Unidad 6</Route>
+          <Route path="/Equivalencia" element={<Equivalencia />}>Equivalencias 6</Route>
           <Route path="/*" element={<Navigate to="/" />}></Route>
         </Routes>
       </div>

@@ -37,8 +37,8 @@ export const Cuerpo = () => {
                                     Materiales
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Libros</a></li>
-                                    <li><a className="dropdown-item" href="#">Videos</a></li>
+                                    <li><a className="dropdown-item" href="#">Bibliografía adicional</a></li>
+                                    <li><NavLink exact to="Equivalencia" className="dropdown-item">Examen de Equivalencia</NavLink></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><a className="dropdown-item" href="#">Acceso a datos económicos</a></li>
                                 </ul>

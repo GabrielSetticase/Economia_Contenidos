@@ -8,7 +8,6 @@
 }
 
 .recuadro::before {
-    content: '¿Sabías que? ... ';
     position: absolute;
     top: -20px;
     /* Ajusta la posición vertical de la palabra sobre el borde */
