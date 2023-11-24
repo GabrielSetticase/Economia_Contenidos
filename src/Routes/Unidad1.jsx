@@ -4,9 +4,9 @@ import Mercado from "../assets/Mercado.png"
 
 export const Unidad1 = () => {
     const estiloTexto = {
-        overflow: 'hidden', // Oculta el texto que se desborda del contenedor
-        wordWrap: 'break-word', // Rompe el texto largo y sin espacios para evitar desbordamiento
-        whiteSpace: 'pre-wrap' // Mantiene los espacios y las líneas nuevas dentro del texto
+        overflow: 'hidden',
+        wordWrap: 'break-word',
+        whiteSpace: 'pre-wrap'
     };
 
     return (

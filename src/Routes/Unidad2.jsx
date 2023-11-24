@@ -2,9 +2,9 @@ import "../Styles/Acordeones.css"
 
 export const Unidad2 = () => {
     const estiloTexto = {
-        overflow: 'hidden', // Oculta el texto que se desborda del contenedor
-        wordWrap: 'break-word', // Rompe el texto largo y sin espacios para evitar desbordamiento
-        whiteSpace: 'pre-wrap' // Mantiene los espacios y las líneas nuevas dentro del texto
+        overflow: 'hidden',
+        wordWrap: 'break-word',
+        whiteSpace: 'pre-wrap'
     };
 
     return (
